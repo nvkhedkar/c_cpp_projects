@@ -14,7 +14,7 @@ To use:
 GeneticParams ga;
 int gene_len = 2;
 double gene_range[2 * gene_len] = {0, 100, 0, 100};
-def define_and_run_ga() {
+void define_and_run_ga() {
   init_genetic_params(&ga);
   def_genetic_params(&ga, 
     /* Population */         200,
